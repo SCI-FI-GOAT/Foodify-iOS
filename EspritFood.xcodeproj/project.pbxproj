@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E32855C225F4461005850EA /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E32855B225F4461005850EA /* GoogleService-Info.plist */; };
+		26B56E22F942602C51CCAF3C /* Pods_EspritFood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F18C720722A2E1421E0F2DBB /* Pods_EspritFood.framework */; };
+		CE1B8A1322823EB500D3133E /* ListeOffresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1B8A1222823EB500D3133E /* ListeOffresViewController.swift */; };
+		CE39A60B226347BB004CED15 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39A60A226347BB004CED15 /* MenuViewController.swift */; };
+		CE39A60D226347D9004CED15 /* SousMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39A60C226347D9004CED15 /* SousMenuViewController.swift */; };
+		CE39A60F226347E8004CED15 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39A60E226347E8004CED15 /* DetailsViewController.swift */; };
+		CE39A61322639237004CED15 /* PannierViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39A61222639237004CED15 /* PannierViewController.swift */; };
+		CE39A615226392BA004CED15 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE39A614226392BA004CED15 /* MapViewController.swift */; };
+		CE9C441A225E516F0019E17D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C4419225E516F0019E17D /* AppDelegate.swift */; };
+		CE9C441F225E516F0019E17D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9C441D225E516F0019E17D /* Main.storyboard */; };
+		CE9C4422225E516F0019E17D /* EspritFood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CE9C4420225E516F0019E17D /* EspritFood.xcdatamodeld */; };
+		CE9C4424225E51730019E17D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE9C4423225E51730019E17D /* Assets.xcassets */; };
+		CE9C4427225E51730019E17D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE9C4425225E51730019E17D /* LaunchScreen.storyboard */; };
+		CE9C442F225E527A0019E17D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C442E225E527A0019E17D /* LoginViewController.swift */; };
+		CE9C4431225E528B0019E17D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C4430225E528B0019E17D /* HomeViewController.swift */; };
+		CE9C4433225E5BC30019E17D /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE9C4432225E5BC30019E17D /* credentials.plist */; };
+		CE9C4435225E88A40019E17D /* IP.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9C4434225E88A40019E17D /* IP.swift */; };
+		CEA7297A2279D02400AF608A /* HomeAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA729792279D02400AF608A /* HomeAdminViewController.swift */; };
+		CEA7297C2279D07D00AF608A /* OffreAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7297B2279D07D00AF608A /* OffreAddViewController.swift */; };
+		CEA7297E2279D09100AF608A /* MenuAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7297D2279D09100AF608A /* MenuAddViewController.swift */; };
+		CEA729802279D0D100AF608A /* CommandeAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7297F2279D0D100AF608A /* CommandeAdminViewController.swift */; };
+		CEA729822279D19F00AF608A /* RestaurantAddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA729812279D19F00AF608A /* RestaurantAddViewController.swift */; };
+		CEA72984227A011B00AF608A /* SousCommandeAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA72983227A011B00AF608A /* SousCommandeAdminViewController.swift */; };
+		CECD0521228E27E000FD54AB /* LogoutAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD0520228E27E000FD54AB /* LogoutAdminViewController.swift */; };
+		CECD0523228E29DD00FD54AB /* LogoutClientViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CECD0522228E29DD00FD54AB /* LogoutClientViewController.swift */; };
+		CEDC0AE9226F8EB10085275F /* CommandeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDC0AE8226F8EB10085275F /* CommandeDetailViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E32855B225F4461005850EA /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2B6017463B7737C36591BC82 /* Pods-EspritFood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EspritFood.release.xcconfig"; path = "Target Support Files/Pods-EspritFood/Pods-EspritFood.release.xcconfig"; sourceTree = "<group>"; };
+		9AF14A512719E252BA8E2D4F /* Pods-EspritFood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EspritFood.debug.xcconfig"; path = "Target Support Files/Pods-EspritFood/Pods-EspritFood.debug.xcconfig"; sourceTree = "<group>"; };
+		CE1B8A1222823EB500D3133E /* ListeOffresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeOffresViewController.swift; sourceTree = "<group>"; };
+		CE39A60A226347BB004CED15 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CE39A60C226347D9004CED15 /* SousMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SousMenuViewController.swift; sourceTree = "<group>"; };
+		CE39A60E226347E8004CED15 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CE39A61222639237004CED15 /* PannierViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PannierViewController.swift; sourceTree = "<group>"; };
+		CE39A614226392BA004CED15 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		CE9C4416225E516F0019E17D /* EspritFood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EspritFood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE9C4419225E516F0019E17D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE9C441E225E516F0019E17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE9C4421225E516F0019E17D /* EspritFood.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EspritFood.xcdatamodel; sourceTree = "<group>"; };
+		CE9C4423225E51730019E17D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE9C4426225E51730019E17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE9C4428225E51730019E17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE9C442E225E527A0019E17D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE9C4430225E528B0019E17D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CE9C4432225E5BC30019E17D /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
+		CE9C4434225E88A40019E17D /* IP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IP.swift; sourceTree = "<group>"; };
+		CEA729792279D02400AF608A /* HomeAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAdminViewController.swift; sourceTree = "<group>"; };
+		CEA7297B2279D07D00AF608A /* OffreAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffreAddViewController.swift; sourceTree = "<group>"; };
+		CEA7297D2279D09100AF608A /* MenuAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuAddViewController.swift; sourceTree = "<group>"; };
+		CEA7297F2279D0D100AF608A /* CommandeAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandeAdminViewController.swift; sourceTree = "<group>"; };
+		CEA729812279D19F00AF608A /* RestaurantAddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantAddViewController.swift; sourceTree = "<group>"; };
+		CEA72983227A011B00AF608A /* SousCommandeAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SousCommandeAdminViewController.swift; sourceTree = "<group>"; };
+		CECD0520228E27E000FD54AB /* LogoutAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutAdminViewController.swift; sourceTree = "<group>"; };
+		CECD0522228E29DD00FD54AB /* LogoutClientViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutClientViewController.swift; sourceTree = "<group>"; };
+		CEDC0AE8226F8EB10085275F /* CommandeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandeDetailViewController.swift; sourceTree = "<group>"; };
+		F18C720722A2E1421E0F2DBB /* Pods_EspritFood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EspritFood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE9C4413225E516F0019E17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26B56E22F942602C51CCAF3C /* Pods_EspritFood.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C4E9DDA37F86C71A2E56295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F18C720722A2E1421E0F2DBB /* Pods_EspritFood.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CB9FFF860759A3C89FED546E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AF14A512719E252BA8E2D4F /* Pods-EspritFood.debug.xcconfig */,
+				2B6017463B7737C36591BC82 /* Pods-EspritFood.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CE9C440D225E516F0019E17D = {
+			isa = PBXGroup;
+			children = (
+				CE9C4418225E516F0019E17D /* EspritFood */,
+				CE9C4417225E516F0019E17D /* Products */,
+				CB9FFF860759A3C89FED546E /* Pods */,
+				8C4E9DDA37F86C71A2E56295 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE9C4417225E516F0019E17D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE9C4416225E516F0019E17D /* EspritFood.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE9C4418225E516F0019E17D /* EspritFood */ = {
+			isa = PBXGroup;
+			children = (
+				CEA729782279CFD200AF608A /* Admin */,
+				CE9C4419225E516F0019E17D /* AppDelegate.swift */,
+				CECD0522228E29DD00FD54AB /* LogoutClientViewController.swift */,
+				CE9C4434225E88A40019E17D /* IP.swift */,
+				CE9C442E225E527A0019E17D /* LoginViewController.swift */,
+				CE9C4430225E528B0019E17D /* HomeViewController.swift */,
+				CEDC0AE8226F8EB10085275F /* CommandeDetailViewController.swift */,
+				CE39A60A226347BB004CED15 /* MenuViewController.swift */,
+				CE39A60C226347D9004CED15 /* SousMenuViewController.swift */,
+				CE39A60E226347E8004CED15 /* DetailsViewController.swift */,
+				CE39A61222639237004CED15 /* PannierViewController.swift */,
+				CE39A614226392BA004CED15 /* MapViewController.swift */,
+				CE9C441D225E516F0019E17D /* Main.storyboard */,
+				CE9C4423225E51730019E17D /* Assets.xcassets */,
+				CE9C4425225E51730019E17D /* LaunchScreen.storyboard */,
+				CE9C4428225E51730019E17D /* Info.plist */,
+				0E32855B225F4461005850EA /* GoogleService-Info.plist */,
+				CE9C4432225E5BC30019E17D /* credentials.plist */,
+				CE9C4420225E516F0019E17D /* EspritFood.xcdatamodeld */,
+			);
+			path = EspritFood;
+			sourceTree = "<group>";
+		};
+		CEA729782279CFD200AF608A /* Admin */ = {
+			isa = PBXGroup;
+			children = (
+				CEA729792279D02400AF608A /* HomeAdminViewController.swift */,
+				CEA7297B2279D07D00AF608A /* OffreAddViewController.swift */,
+				CEA7297D2279D09100AF608A /* MenuAddViewController.swift */,
+				CEA7297F2279D0D100AF608A /* CommandeAdminViewController.swift */,
+				CEA729812279D19F00AF608A /* RestaurantAddViewController.swift */,
+				CEA72983227A011B00AF608A /* SousCommandeAdminViewController.swift */,
+				CE1B8A1222823EB500D3133E /* ListeOffresViewController.swift */,
+				CECD0520228E27E000FD54AB /* LogoutAdminViewController.swift */,
+			);
+			path = Admin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE9C4415225E516F0019E17D /* EspritFood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE9C442B225E51730019E17D /* Build configuration list for PBXNativeTarget "EspritFood" */;
+			buildPhases = (
+				0B4B7E4D22513F2539ACD20C /* [CP] Check Pods Manifest.lock */,
+				CE9C4412225E516F0019E17D /* Sources */,
+				CE9C4413225E516F0019E17D /* Frameworks */,
+				CE9C4414225E516F0019E17D /* Resources */,
+				7C9EBDAC93841C4ADC194F3D /* [CP] Embed Pods Frameworks */,
+				BF9F290AA5C067137328BADD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EspritFood;
+			productName = EspritFood;
+			productReference = CE9C4416225E516F0019E17D /* EspritFood.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE9C440E225E516F0019E17D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Esprit;
+				TargetAttributes = {
+					CE9C4415225E516F0019E17D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = CE9C4411225E516F0019E17D /* Build configuration list for PBXProject "EspritFood" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE9C440D225E516F0019E17D;
+			productRefGroup = CE9C4417225E516F0019E17D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE9C4415225E516F0019E17D /* EspritFood */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE9C4414225E516F0019E17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E32855C225F4461005850EA /* GoogleService-Info.plist in Resources */,
+				CE9C4427225E51730019E17D /* LaunchScreen.storyboard in Resources */,
+				CE9C4433225E5BC30019E17D /* credentials.plist in Resources */,
+				CE9C4424225E51730019E17D /* Assets.xcassets in Resources */,
+				CE9C441F225E516F0019E17D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B4B7E4D22513F2539ACD20C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EspritFood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C9EBDAC93841C4ADC194F3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EspritFood/Pods-EspritFood-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKLoginKit/FBSDKLoginKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FBSDKShareKit/FBSDKShareKit.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKLoginKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKShareKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EspritFood/Pods-EspritFood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF9F290AA5C067137328BADD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EspritFood/Pods-EspritFood-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EspritFood/Pods-EspritFood-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE9C4412225E516F0019E17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE9C4431225E528B0019E17D /* HomeViewController.swift in Sources */,
+				CEA7297C2279D07D00AF608A /* OffreAddViewController.swift in Sources */,
+				CE39A60B226347BB004CED15 /* MenuViewController.swift in Sources */,
+				CE1B8A1322823EB500D3133E /* ListeOffresViewController.swift in Sources */,
+				CE9C442F225E527A0019E17D /* LoginViewController.swift in Sources */,
+				CE39A615226392BA004CED15 /* MapViewController.swift in Sources */,
+				CEA729802279D0D100AF608A /* CommandeAdminViewController.swift in Sources */,
+				CECD0521228E27E000FD54AB /* LogoutAdminViewController.swift in Sources */,
+				CEDC0AE9226F8EB10085275F /* CommandeDetailViewController.swift in Sources */,
+				CEA729822279D19F00AF608A /* RestaurantAddViewController.swift in Sources */,
+				CEA7297A2279D02400AF608A /* HomeAdminViewController.swift in Sources */,
+				CE39A60F226347E8004CED15 /* DetailsViewController.swift in Sources */,
+				CE39A60D226347D9004CED15 /* SousMenuViewController.swift in Sources */,
+				CE9C441A225E516F0019E17D /* AppDelegate.swift in Sources */,
+				CE9C4435225E88A40019E17D /* IP.swift in Sources */,
+				CE9C4422225E516F0019E17D /* EspritFood.xcdatamodeld in Sources */,
+				CE39A61322639237004CED15 /* PannierViewController.swift in Sources */,
+				CEA7297E2279D09100AF608A /* MenuAddViewController.swift in Sources */,
+				CECD0523228E29DD00FD54AB /* LogoutClientViewController.swift in Sources */,
+				CEA72984227A011B00AF608A /* SousCommandeAdminViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE9C441D225E516F0019E17D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9C441E225E516F0019E17D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE9C4425225E51730019E17D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE9C4426225E51730019E17D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE9C4429225E51730019E17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE9C442A225E51730019E17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE9C442C225E51730019E17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AF14A512719E252BA8E2D4F /* Pods-EspritFood.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G96V29LG5G;
+				INFOPLIST_FILE = EspritFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.EspritFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE9C442D225E51730019E17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B6017463B7737C36591BC82 /* Pods-EspritFood.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G96V29LG5G;
+				INFOPLIST_FILE = EspritFood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tn.esprit.EspritFood;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE9C4411225E516F0019E17D /* Build configuration list for PBXProject "EspritFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9C4429225E51730019E17D /* Debug */,
+				CE9C442A225E51730019E17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE9C442B225E51730019E17D /* Build configuration list for PBXNativeTarget "EspritFood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE9C442C225E51730019E17D /* Debug */,
+				CE9C442D225E51730019E17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		CE9C4420225E516F0019E17D /* EspritFood.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				CE9C4421225E516F0019E17D /* EspritFood.xcdatamodel */,
+			);
+			currentVersion = CE9C4421225E516F0019E17D /* EspritFood.xcdatamodel */;
+			path = EspritFood.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = CE9C440E225E516F0019E17D /* Project object */;
+}

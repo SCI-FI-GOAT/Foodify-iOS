@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>605116295000-1efhtjmvi6g35f6sans1utjdecjehnr8.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.605116295000-1efhtjmvi6g35f6sans1utjdecjehnr8</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDkuBxPgvGu2wK8dBA9V1nXc52BN2Rt1UY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>605116295000</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>tn.esprit.EspritFood</string>
+	<key>PROJECT_ID</key>
+	<string>espritfood</string>
+	<key>STORAGE_BUCKET</key>
+	<string>espritfood.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:605116295000:ios:a31c8b08eb921db5</string>
+	<key>DATABASE_URL</key>
+	<string>https://espritfood.firebaseio.com</string>
+</dict>
+</plist>
